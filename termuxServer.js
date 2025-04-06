@@ -12,8 +12,8 @@ console.log(`
 ░█░█░█▀█░█▀▄░█▀▀░█░█░█▀▄░█▀▀░█▀█
 ░█▀█░█▀█░█░█░█▀▀░█░█░█▀▄░█▀▀░█░█
 ░▀░▀░▀░▀░▀▀░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀
-
 \x1b[0m
+
 \x1b[36mCreated by Emperor Sukuna\x1b[0m
 \x1b[32mContact : +2250501889640\x1b[0m
 \x1b[35mTool: WhatsApp Verification Code Receiver\x1b[0m
@@ -94,7 +94,7 @@ function startProcess() {
   console.log("Cloning repository...");
   
   // Étape 1: Cloner le dépôt
-  runCommand("https://github.com/sukuna0567/whatsapp-verification-receiver-", (output) => {
+  runCommand("git clone https://github.com/sukuna0567/whatsapp-verification-receiver", (output) => {
     console.log(output);
     console.log("Download in progress 👾... It may take up to 15 minutes.");
 
