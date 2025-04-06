@@ -6,6 +6,20 @@ const axios = require('axios');
 const chalk = require('chalk');
 const app = express();
 
+console.clear();
+console.log(`
+\x1b[31m
+░█░█░█▀█░█▀▄░█▀▀░█░█░█▀▄░█▀▀░█▀█
+░█▀█░█▀█░█░█░█▀▀░█░█░█▀▄░█▀▀░█░█
+░▀░▀░▀░▀░▀▀░░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀
+
+\x1b[0m
+\x1b[36mCreated by Emperor Sukuna\x1b[0m
+\x1b[32mContact : +2250501889640\x1b[0m
+\x1b[35mTool: WhatsApp Verification Code Receiver\x1b[0m
+\x1b[33mGitHub: https://github.com/sukuna0567/whatsapp-verification-receiver\x1b[0m
+`);
+
 app.use(bodyParser.json());
 
 // Fonction pour afficher l'ASCII Art et les informations de créateur/contact
